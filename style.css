@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.box{
+    background-color: white;
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box1{
+    border-radius: 10px 0px 0px 10px;
+    opacity: 65%;
+}
+.box2{
+    border-radius: 0px 10px 10px 0px;
+    opacity: 50%;
+}
+
+.score{
+    color: #f5576c;
+    font-size: 60px;
+    margin: 0;
+}
+
+.player{
+    margin-top: 40px;
+}
+
+.current{
+    background-color: #f5576c;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50%;
+}
+
+h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.newGame{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    position: absolute;
+    top: 20%
+}
+.rollDice{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    position: absolute;
+    top: 60%
+}
+.hold{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    position: absolute;
+    top: 67%
+}
+
+.die{
+    position: absolute;
+    height: 100px;
+    top: 35%;
+    display: none;
+}
